@@ -2,8 +2,6 @@
 **/.terraform/*
 /.terraform/*
 
-# Crash log files
-crash.log
 
 **.pem
 
