@@ -1,0 +1,2 @@
+  export TF_VAR_access_key=AKIA2EXXJIFSEDVQCDAU
+  export TF_VAR_secret_key=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
