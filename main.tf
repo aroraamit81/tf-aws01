@@ -46,7 +46,6 @@ resource "aws_route_table" "tf-route" {
     gateway_id = aws_internet_gateway.tf-gw.id
   }
 
-
   tags = {
     Name = "tf-route"
   }
