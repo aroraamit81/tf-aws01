@@ -105,8 +105,8 @@ resource "aws_instance" "TF-EC2" {
             #!/bin/bash
             sudo apt update -y
             sudo apt upgrade -y
-            # sudo apt install nginx -y
-            # sudo bash -c 'echo your very first webserver > /var/www/html/index.html'
+            sudo apt install nginx -y
+            #sudo bash -c 'echo your very first webserver > /var/www/html/index.html'
             EOF
 
   tags = {
