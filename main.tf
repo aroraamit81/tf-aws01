@@ -56,7 +56,7 @@ resource "aws_route_table_association" "a" {
   route_table_id = aws_route_table.tf-route.id
 }
 
-resource "aws_security_group" "tf-sg" {
+resource "aws_security_group" "tf-sg1" {
   name        = "tf-sg"
   description = "Allow TLS inbound traffic"
   vpc_id      = aws_vpc.tf-vpc.id
@@ -90,7 +90,7 @@ resource "aws_security_group" "tf-sg" {
   }
 
   tags = {
-    Name = "tf-sg"
+    Name = "tf-sg1"
   }
 }
 
